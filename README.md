@@ -78,3 +78,12 @@ new Vue({
 ```
  <el-table-column prop="date" label="日期" align="center" //element ui 表头文本居中的方法
 ```
+## 使用v-for循环来输出到html模板中。
+```
+<ul>
+  <li v-for='item in oftenGoods'>
+    <span>{{item.goodsName}}</span>
+    <span class="o-price">￥{{item.price}}元</span>
+  </li>
+</ul>
+```
