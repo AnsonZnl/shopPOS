@@ -66,3 +66,15 @@ new Vue({
   render: h => h(App)
 })
 ```
+3. Element官网
+详情用法element官网：http://element-cn.eleme.io/#/zh-CN/component/installation
+---
+- el-table组件制作选项卡: http://element-cn.eleme.io/#/zh-CN/component/tabs
+
+- el-row快速布局采用24栅格系统: http://element-cn.eleme.io/#/zh-CN/component/layout
+
+- el-table 表格快速插入数据: http://element-cn.eleme.io/#/zh-CN/component/table
+---
+```
+ <el-table-column prop="date" label="日期" align="center" //element ui 表头文本居中的方法
+```
