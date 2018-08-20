@@ -87,3 +87,38 @@ new Vue({
   </li>
 </ul>
 ```
+## Axios从远程读取数据
+安装Axios:
+```
+cnpm install axios --save
+```
+我们在Pos.vue页面引入Axios，由于使用了npm来进行安装，所以这里不需要填写路径:
+```
+import axios from 'axios'
+```
+商品数据接口: http://jspang.com/DemoApi/oftenGoods.php
+```
+created(){
+  //读取常用商品列表
+  axios.get('http://jspang.com/DemoApi/oftenGoods.php')
+  //get方式请求
+  .then(response=>{
+  //请求成功返回的函数
+    //console.log(response.data);
+    this.oftenGoods = response.data;
+  }).catch(error=>{
+    //请求失败是返回函数
+    console.log(error);
+    alert('获取数据失败！')
+  })
+}
+```
+## 添加商品到订单页面
+箭头函数了解一下-->
+ElementUi的列表scope了解一下-->
+filter 了解一下-->
+
+## 打包上线
+把绝对路径改成相对路径
+config/index.js/注意是**build{}里的**`assetsPublicPath: '/',` ---> 改为----> `assetsPublicPath: './',`
+- 打包命令`	npm run build ` 打包成功后会有一个dist文件就可用了。
