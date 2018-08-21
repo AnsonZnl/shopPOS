@@ -122,5 +122,7 @@ filter 了解一下-->[javascript中filter的用法](https://www.cnblogs.com/cjx
 
 ## 打包上线
 把绝对路径改成相对路径
-config/index.js/注意是**build{}里的**`assetsPublicPath: '/',` ---> 改为----> `assetsPublicPath: './',`
-- 打包命令`	npm run build ` 打包成功后会有一个dist文件就可用了。
+<br>
+config/index.js/注意是**build{...}里的**`assetsPublicPath: '/'` ---> 改为----> `assetsPublicPath: './'` 就在前面加一个点改为决对路径。
+<br>
+然后执行 打包命令`npm run build ` 打包成功后会有一个dist文件就可用了。
