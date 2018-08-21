@@ -116,7 +116,7 @@ created(){
 ## 添加商品到订单页面
 箭头函数了解一下-->[廖雪峰的官网-箭头函数](https://www.liaoxuefeng.com/wiki/001434446689867b27157e896e74d51a89c25cc8b43bdb3000/001438565969057627e5435793645b7acaee3b6869d1374000)
 <br>
-ElementUi的列表scope了解一下-->
+ElementUi的列表scope了解一下-->[element-UI表格中拿到每一行的index----scope](https://blog.csdn.net/bright2017/article/details/77452648)
 <br>
 filter 了解一下-->
 
