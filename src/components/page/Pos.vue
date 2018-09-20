@@ -9,7 +9,7 @@
               <el-table-column prop="count" label="数量" width="50" align="center"></el-table-column>
               <el-table-column prop="price" label="金额" width="70" align="center"></el-table-column>
               <el-table-column prop="操作" fixed="right" label="操作" align="center">
-                  <template scope="scope">
+                  <template scope>
                     <el-button type="text" size="small">删除</el-button>
                     <el-button type="text" size="small">增加</el-button>
                   </template>
@@ -36,9 +36,9 @@
            </div>
            <div class="often-goods-list">
              <ul>
-               <li v-for='item in oftenGoods'>
-                 <span>{{item.goodsName}}</span>
-                 <span class="o-price">￥{{item.price}}元</span>
+               <li v-for='list in oftenGoods'>
+                 <span>{{list.goodsName}}</span>
+                 <span class="o-price">￥{{list.price}}元</span>
                </li>
              </ul>
            </div>
