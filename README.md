@@ -119,7 +119,7 @@ created(){
 ElementUi的列表scope了解一下-->[element-UI表格中拿到每一行的index----scope](https://blog.csdn.net/bright2017/article/details/77452648)
 <br>
 filter 了解一下-->[javascript中filter的用法](https://www.cnblogs.com/cjx-work/p/8052865.html)
-
+[如何在Vue项目中使用vw实现移动端适配](https://www.w3cplus.com/mobile/vw-layout-in-vue.html)
 ## 打包上线
 把绝对路径改成相对路径
 <br>
