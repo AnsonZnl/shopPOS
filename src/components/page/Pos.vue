@@ -9,16 +9,13 @@
               <el-table-column prop="count" label="数量" width="50" align="center"></el-table-column>
               <el-table-column prop="price" label="金额" width="70" align="center"></el-table-column>
               <el-table-column prop="操作" fixed="right" label="操作" align="center">
-<<<<<<< HEAD
-                  <template scope>
+                  <!-- <template scope>
                     <el-button type="text" size="small">删除</el-button>
-                    <el-button type="text" size="small">增加</el-button>
-=======
+                    <el-button type="text" size="small">增加</el-button> -->
                   <template scope="scope">
                     <el-button type="text" size="small" @click = "del(scope.row)">删除</el-button>
                     <el-button type="text" size="small" @click="addOrderList(scope.row)">增加</el-button>
                      <!-- 注意： addOrderList(scope.row)  scope 作用域 获取 里面的一行数据  Element规定 -->
->>>>>>> 264e417be1bdf1dc1d04609bd002b2519f4e0adc
                   </template>
               </el-table-column>
             </el-table>
@@ -46,15 +43,12 @@
            </div>
            <div class="often-goods-list">
              <ul>
-<<<<<<< HEAD
-               <li v-for='list in oftenGoods'>
+               <!-- <li v-for='list in oftenGoods'>
                  <span>{{list.goodsName}}</span>
-                 <span class="o-price">￥{{list.price}}元</span>
-=======
+                 <span class="o-price">￥{{list.price}}元</span> -->
                <li v-for='item in oftenGoods' @click="addOrderList(item)">
                  <span>{{item.goodsName}}</span>
                  <span class="o-price">￥{{item.price}}元</span>
->>>>>>> 264e417be1bdf1dc1d04609bd002b2519f4e0adc
                </li>
              </ul>
            </div>
