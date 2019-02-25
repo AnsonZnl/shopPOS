@@ -5,7 +5,7 @@
 ## vue-cli搭建开发环境：
 1. 输入vue-cli安装命令：
 ```
-cmpm install vue-cli -g
+cnpm install vue-cli -g
 ```
 -g 表示全局安装
 2. 在命令行中初始化项目，我们采用的是webpack模板，输入初始化命令：
